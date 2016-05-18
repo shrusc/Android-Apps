@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CustomActionBarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:actionBarStyle">@style/MyTheme.ActionBar</item>
+        <item name="actionBarStyle">@style/MyTheme.ActionBar</item>
+
+        <item name="android:actionBarTabBarStyle">@style/MyActionBar</item>
+        <item name="actionBarTabBarStyle">@style/MyActionBar</item>
+
+        <item name="android:actionBarTabTextStyle">@style/MyTheme.ActionBar.TabText</item>
+        <item name="actionBarTabTextStyle">@style/MyTheme.ActionBar.TabText</item>
+
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.TabBar">
+        <item name="android:background">@drawable/tab_bar_background</item>
+        <item name="background">@drawable/tab_bar_background</item>
+    </style>
+
+    <style name="MyTheme.ActionBar.TabView" parent="@style/Widget.AppCompat.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_bar_background</item>
+        <item name="background">@drawable/tab_bar_background</item>
+    </style>
+
+    <style name="MyTheme.ActionBar.TabText" parent="@style/Widget.AppCompat.Light.ActionBar.TabText">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="MyTheme.ActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">#04AEDA</item>
+        <item name="background">@color/actionbar_background</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

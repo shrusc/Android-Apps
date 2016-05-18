@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.sdsu.cs.shruti.sharedlist.SharedListsDetailActivity">
+    <item android:id="@+id/addItem" android:title="@string/addItem"
+        android:icon="@mipmap/ic_action_add_item"
+        android:orderInCategory="100" app:showAsAction="always"/>
+</menu>

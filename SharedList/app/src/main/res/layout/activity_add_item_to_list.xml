@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="edu.sdsu.cs.shruti.sharedlist.AddItemToListActivity">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemName"
+        android:inputType="text"
+        android:layout_marginTop="60dp"
+        android:hint="@string/item"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quantityValue"
+        android:inputType="text"
+        android:hint="@string/quantity"
+        android:layout_below="@+id/itemName"
+        android:layout_alignLeft="@+id/itemName"
+        android:layout_alignStart="@+id/itemName"
+        android:layout_marginTop="57dp"
+        android:layout_alignRight="@+id/itemName"
+        android:layout_alignEnd="@+id/itemName" />
+
+    <!--Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:id="@+id/saveButton"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/quantityValue"
+        android:layout_centerHorizontal="true" /-->
+
+</RelativeLayout>

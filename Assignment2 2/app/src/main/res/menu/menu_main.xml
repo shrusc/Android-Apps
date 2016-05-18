@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/date" android:title="@string/date"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_go_to_today"
+        app:showAsAction="always"/>
+    <item android:id="@+id/keyboard" android:title="@string/keyboard"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:icon="@drawable/ic_action_keyboard"/>
+    <item android:id="@+id/list" android:title="@string/list"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:icon="@drawable/ic_action_view_as_list"/>
+</menu>

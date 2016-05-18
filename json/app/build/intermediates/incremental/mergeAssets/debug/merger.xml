@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="19.1.0"><source path="/Users/adarshkumar/Desktop/Android/json/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/assets"/></dataSet><dataSet config="main"><source path="/Users/adarshkumar/Desktop/Android/json/app/src/main/assets"><file name="weather.ttf" path="/Users/adarshkumar/Desktop/Android/json/app/src/main/assets/weather.ttf"/></source></dataSet><dataSet config="debug"><source path="/Users/adarshkumar/Desktop/Android/json/app/src/debug/assets"/></dataSet></merger>

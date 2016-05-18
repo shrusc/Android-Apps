@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_instructor_detail">InstructorDetailActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="office">Office :</string>
+    <string name="phone">Phone :</string>
+    <string name="email">Email :</string>
+    <string name="ok">OK</string>
+    <string name="comments">Comments</string>
+    <string name="selectRating">Select a Rating</string>
+    <string name="send">Send</string>
+    <string name="enterString">Enter a comment</string>
+
+</resources>

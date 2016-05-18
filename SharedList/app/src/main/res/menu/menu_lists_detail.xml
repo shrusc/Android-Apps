@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.sdsu.cs.shruti.sharedlist.ListsDetailActivity">
+    <item android:id="@+id/addItemToList" android:title="@string/addItem"
+        android:icon="@mipmap/ic_action_add_item"
+        app:showAsAction="always"/>
+    <item android:id="@+id/shareList" android:title="@string/shareList"
+        android:icon="@mipmap/ic_action_add_group"
+        app:showAsAction="always"/>
+</menu>

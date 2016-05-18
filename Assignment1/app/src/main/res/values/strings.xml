@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment1</string>
+    <string name="action_settings">Settings</string>
+    <string name="clear">"Clear"</string>
+    <string name="onCreate">"onCreate \n"</string>
+    <string name="onRestart">"onRestart \n"</string>
+    <string name="onStart">"onStart \n"</string>
+    <string name="onSaveInstanceState">"onSaveInstanceState \n"</string>
+    <string name="onRestoreInstanceState">"onRestoreInstanceState \n"</string>
+    <string name="onPause">"onPause \n"</string>
+    <string name="onResume">"onResume \n"</string>
+    <string name="onDestroy">"onDestroy \n"</string>
+    <string name="onStop">"onStop \n"</string>
+</resources>

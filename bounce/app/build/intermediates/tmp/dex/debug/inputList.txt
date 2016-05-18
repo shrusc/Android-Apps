@@ -1,0 +1,2 @@
+/Users/adarshkumar/Desktop/Android/bounce/app/build/intermediates/classes/debug
+/Users/adarshkumar/Desktop/Android/bounce/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-31f7e28522347efc986b9ff3f9d853c142608e88.jar
