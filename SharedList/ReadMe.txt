@@ -1,5 +1,3 @@
-Shruti Saligrama Chandrakantha LNU
-Red Id: 8185895558
 
 Project Description:
 An app which allows users to create and share grocery lists.
